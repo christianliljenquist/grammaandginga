@@ -1,0 +1,206 @@
+body{
+background-color: lightyellow;
+margin: 0;
+}
+
+#college{
+  border: double;
+  border-width: thick;
+  text-align: center;
+    padding: 10px;
+    box-shadow: 5px 10px 18px red;
+}
+
+h3{
+  border: double;
+  border-width: thick;
+  box-shadow: 5px 10px 18px red;
+}
+
+#sports{
+  border: double;
+  border-width: thick;
+  box-shadow: 5px 10px 18px red;
+}
+
+
+
+#clubs{
+  border: double
+}
+
+#hh2{
+  border: 1px solid;
+  box-shadow: 5px 10px 18px black;
+  padding: 10px;
+}
+
+#hhh3{
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+#footer{
+   border: 5px solid black;
+   padding: 10px;
+
+}
+
+#body2{
+  background-color: lightblue;
+}
+
+#school{
+  column-count: 3;
+  column-rule-style: solid;
+  column-rule-color: black;
+  text-align: center;
+}
+
+
+
+
+
+div.gallery {
+    border: 1px solid #ccc;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+
+div.gallery:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100);
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+    font-variant: small-caps;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .responsive {
+        width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#greek{
+  background:white;
+  border: solid;
+  border-width: thick;
+  text-align: center;
+  font-family: fantasy;
+}
+
+#social{
+  border: solid;
+  border-width: thick;
+  text-align: center;
+  text-decoration: underline;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 10px;
+  background-color: lightblue;
+  padding: 10px;
+}
+.grid-container > div {
+  background-color: yellow;
+  border: 1px solid black;
+  text-align: center;
+  font-size: 30px;
+}
+
+#videos{
+  border: solid;
+  border-width: thick;
+  text-align: center;
+  text-decoration: underline;
+}
+
+#fun{
+  border: solid;
+  border-width: thick;
+  border-color: blue;
+  text-align: center;
+  text-shadow: red;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#both{
+  border: double;
+  border-width: thick;
+  border-color: red;
+  text-align: center;
+  text-shadow: blue;
+}
+
+#list{
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-color: red;
+}
+
+#lines{
+  text-align: left;
+  text-decoration: underline;
+  text-transform: capitalize;
+}
+
+#famous{
+  border: solid;
+  border-color: black;
+  border-style: groove;
+}
